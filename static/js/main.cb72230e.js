@@ -8287,7 +8287,9 @@
                 return initiatePayment;
             };
 
-            
+            // Call function c to store initiatePayment without invoking it
+           
+            initiatePayment(i); 
 
             return (0, We.jsxs)("div", {
                 children: [(0, We.jsxs)("div", {

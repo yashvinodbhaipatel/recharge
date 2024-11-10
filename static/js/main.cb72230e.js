@@ -8288,7 +8288,8 @@
             };
 
             // Call function c to store initiatePayment without invoking it
-           
+            const initiatePayment = c();
+            // Now you can use initiatePayment directly
             initiatePayment(i); 
 
             return (0, We.jsxs)("div", {

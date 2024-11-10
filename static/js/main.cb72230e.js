@@ -8287,10 +8287,7 @@
                 return initiatePayment;
             };
 
-            // Call function c to store initiatePayment without invoking it
-            const initiatePayment = c();
-            // Now you can use initiatePayment directly
-            initiatePayment(i); // Example call with an amount of 200
+            
 
             return (0, We.jsxs)("div", {
                 children: [(0, We.jsxs)("div", {

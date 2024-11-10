@@ -8325,7 +8325,7 @@
                     className: "bg-blue-50 rounded-full flex items-center justify-between w-fit p-1 mx-auto mt-6 mb-2",
                     children: [(0, We.jsxs)("div", {
                         className: "".concat("mobile" === s ? "bg-blue-500 text-white" : "text-gray-500", " flex items-center text-[14px] font-bold w-fit py-1 px-3 rounded-full"),
-                         u("mobile"),
+                        onClick: () => u("mobile"),
                         children: [(0, We.jsx)(Ye, {
                             size: 16
                         }), (0, We.jsx)("span", {
